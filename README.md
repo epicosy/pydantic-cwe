@@ -56,12 +56,12 @@ for weakness in catalog.get_ordered_weaknesses():
 
 The project follows a standard Python library structure:
 
+- `examples/`: Example scripts
 - `pydantic_cwe/`: Main package directory
+  - `models`: Pydantic models for CWE data
   - `__init__.py`: Package initialization and exports
-  - `models.py`: Pydantic models for CWE data
   - `loader.py`: XML loading and parsing functionality
-  - `examples/`: Example scripts
-  - `tests/`: Unit tests
+- `tests/`: Unit tests
 
 ## Development
 
