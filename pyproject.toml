@@ -8,7 +8,7 @@ homepage = "https://github.com/epicosy/pydantic-cwe"
 
 [project]
 name="pydantic-cwe"
-version = "0.0.1"
+version = "0.0.2"
 description = "A Pythonic representation of CWE records using Pydantic models."
 readme = "README.md"
 
